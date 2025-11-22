@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio Daxcode</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <div class="header-content">
+        <div class="logo-image-container">
+            <img src="assets/images/projetodDaxCode.jpeg" alt="Logo Daxcode" class="logo-image">
+        </div>
+        <div class="logo-container">
+            <h1>DAXCODE</h1>
+            <span class="subtitle">Sorteio de Apresentações</span>
+        </div>
+    </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="input-section">
+                <h2>Integrantes da Equipe</h2>
+                <textarea id="members" rows="5" placeholder="Digite os nomes dos integrantes, um por linha&#10;Exemplo:&#10;João Silva&#10;Maria Santos&#10;Pedro Oliveira"></textarea>
+            </div>
+
+            <div class="input-section">
+                <h2>Temas para Apresentação</h2>
+                <textarea id="themes" rows="5" placeholder="Digite os temas, um por linha&#10;Exemplo:&#10;Inteligência Artificial&#10;Machine Learning&#10;Análise de Dados"></textarea>
+            </div>
+
+            <button class="btn" id="draw-btn">Realizar Sorteio</button>
+
+            <div class="result-section" id="result">
+                <h2>Resultado do Sorteio</h2>
+                <div id="result-content"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Camila Paranhos 2025</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
